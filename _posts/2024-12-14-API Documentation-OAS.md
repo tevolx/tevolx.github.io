@@ -1,8 +1,8 @@
 ---
-title: "[Documentation] Swagger와 OpenAPI"
+title: "[API] Swagger와 OpenAPI"
 date: 2024-12-14 12:00:00 +/-TTTT
-categories: [Documentation]
-tags: [Documentation,Swagger,OpenAPI]
+categories: [API]
+tags: [API,Swagger,OpenAPI]
 ---
 
 ### **Swagger & OpenAPI**
@@ -35,6 +35,12 @@ Wordnik dictionary 팀은 `Swagger UI`, `Swagger Codegen` 등을 포함하는 `S
 `Swagger Specification` 이 `OpenAPI Specification`으로 명칭이 변경되긴 하였지만, `Swagger`라는 명칭은 `OpenAPI Specification`을 구현하기 위한 도구를 표현하기 위해 쓰이고 있다. 해당 도구에는 위에서 언급된 `Swagger Editor`, `Swagger UI`, `Swagger Codegen` 등이 포함되어 있다.
 
 `Swagger`에 포함된 도구들외에도 다른 [오픈 소스 및 도구들](https://tools.openapis.org/)이 공개 되어 있어 `OpenAPI Specification`을 사용하여 API를 생성하기 위해 다른 도구를 사용할수 있다.
+
+<br>
+
+### **Swagger와 OpenAPI 비교**
+
+
 
 <br>
 
