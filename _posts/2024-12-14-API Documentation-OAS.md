@@ -1,16 +1,16 @@
 ---
-title: "[API] Swagger와 OpenAPI"
+title: "[API] OpenAPI와 Swagger"
 date: 2024-12-14 12:00:00 +/-TTTT
 categories: [API]
 tags: [API,Swagger,OpenAPI]
 ---
 
-### **Swagger & OpenAPI**
-`Swagger 2.0`과  `OpenAPI 3.0`은 기계와 사람 모두가 읽을 수 있는 YAML 또는 JSON 형식 문서를 이용하여 RESTful HTTP API를 설명하는 API 사양(Specification)으로, `OpenAPI 3.0`은 `Swagger 2.0`의 최신 버전이며 서로 다른 사양은 아니다.
+### **OpenAPI & Swagger**
+`OpenAPI Specification`과 `Swagger Specification`은 기계와 사람 모두가 읽을 수 있는 YAML 또는 JSON 형식 문서를 이용하여 RESTful HTTP API를 설명하는 API Specification으로, `OpenAPI Specification`은 `Swagger Specification`의 최신 버전이며 서로 대치되는 다른 사양은 아니다.
 
 <br>
 
-### **역사**
+### **OpenAPI 역사**
 
 ##### 2011년
 Wordnik dictionary 팀은 `Swagger UI`, `Swagger Codegen` 등을 포함하는 `Swagger toolkit`의 일부로 `Swagger Specification`의 첫 버전을 만들었다.
@@ -30,17 +30,28 @@ Wordnik dictionary 팀은 `Swagger UI`, `Swagger Codegen` 등을 포함하는 `S
 
 <br>
 
+### **OpenAPI Specification Version**
+
+`OpenAPI Specification 3.0`이 릴리즈 되면서 기존 `Swagger Specification 2.0`에서 변경된 사항들은 크게 아래와 같다. 
+1. [단순화된 구조 및 재사용성 향상](https://swagger.io/docs/specification/v3_0/basic-structure/)
+2. [requestBody 및 responseBody 정의 향상](https://swagger.io/docs/specification/v3_0/describing-request-body/describing-request-body/)
+3. [강화된 보안 정의](https://swagger.io/docs/specification/v3_0/authentication/)
+4. [Parameter Type 변경](https://swagger.io/docs/specification/v3_0/describing-parameters/)
+5. [강화된 API 예시](https://swagger.io/docs/specification/v3_0/adding-examples/)
+
+
+OAS 버전별 자세한 Specification은 아래 문서를 참고하자.
+- [OAS 2.0 (Swagger 2.0)](https://swagger.io/specification/v2/)
+- [OAS 3.0](https://swagger.io/specification/v3/)
+- [OAS 3.1](https://swagger.io/specification/)
+
+<br>
+
 ### **OpenAPI Tooling**
 
 `Swagger Specification` 이 `OpenAPI Specification`으로 명칭이 변경되긴 하였지만, `Swagger`라는 명칭은 `OpenAPI Specification`을 구현하기 위한 도구를 표현하기 위해 쓰이고 있다. 해당 도구에는 위에서 언급된 `Swagger Editor`, `Swagger UI`, `Swagger Codegen` 등이 포함되어 있다.
 
-`Swagger`에 포함된 도구들외에도 다른 [오픈 소스 및 도구들](https://tools.openapis.org/)이 공개 되어 있어 `OpenAPI Specification`을 사용하여 API를 생성하기 위해 다른 도구를 사용할수 있다.
-
-<br>
-
-### **Swagger와 OpenAPI 비교**
-
-
+`Swagger`에 포함된 도구들외에도 다른 [오픈 소스 및 도구들](https://tools.openapis.org/)이 공개 되어 있어 `OpenAPI Specification`을 구현하기 위해 다른 도구들을 사용할수 있다.
 
 <br>
 
@@ -51,3 +62,4 @@ Wordnik dictionary 팀은 `Swagger UI`, `Swagger Codegen` 등을 포함하는 `S
 ##### Reference
 - [openapi-vs-swagger](https://blog.postman.com/openapi-vs-swagger/)
 - [difference-between-swagger-and-openapi](https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/)
+- [whats-new-in-openapi-3-0](https://swagger.io/blog/news/whats-new-in-openapi-3-0/)
