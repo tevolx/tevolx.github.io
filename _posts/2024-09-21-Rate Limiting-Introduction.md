@@ -48,8 +48,7 @@ Rate Limit을 위한 알고리즘은 아래와 같이 5가지로 분류할수 �
 <br>
 
 ##### Reference
-- [https://en.wikipedia.org/wiki/Rate_limiting](https://en.wikipedia.org/wiki/Rate_limiting)
-- [https://medium.com/@bijit211987/everything-you-need-to-know-about-rate-limiting-for-apis-f236d2adcfff](https://medium.com/@bijit211987/everything-you-need-to-know-about-rate-limiting-for-apis-f236d2adcfff)
-- [https://www.mimul.com/blog/about-rate-limit-algorithm/](https://www.mimul.com/blog/about-rate-limit-algorithm/)
-- [https://etloveguitar.tistory.com/126](https://etloveguitar.tistory.com/126)
-- [https://smudge.ai/blog/ratelimit-algorithms](https://smudge.ai/blog/ratelimit-algorithms)
+- [everything-you-need-to-know-about-rate-limiting-for-apis](https://medium.com/@bijit211987/everything-you-need-to-know-about-rate-limiting-for-apis-f236d2adcfff)
+- [about-rate-limit-algorithm](https://www.mimul.com/blog/about-rate-limit-algorithm/)
+- [ratelimit-algorithms](https://smudge.ai/blog/ratelimit-algorithms)
+- [ratelimit이란?](https://etloveguitar.tistory.com/126)
