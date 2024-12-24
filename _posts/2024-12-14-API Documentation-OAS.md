@@ -1,8 +1,8 @@
 ---
-title: "[API] OpenAPI와 Swagger"
+title: "[OAS] OpenAPI와 Swagger"
 date: 2024-12-14 12:00:00 +/-TTTT
-categories: [API]
-tags: [API,Swagger,OpenAPI]
+categories: [OAS]
+tags: [OAS,Swagger,OpenAPI]
 ---
 
 ### **OpenAPI & Swagger**
