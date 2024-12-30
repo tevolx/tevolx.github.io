@@ -29,20 +29,20 @@ implementation("io.springfox:springfox-boot-starter:3.0.0")
 
 아래와 같이 `springfox-boot-starter` 하나만 추가해주어도 `springfox-swagger2`와 `springfox-swagger-ui` 같은 관련 라이브러리들을 알아서 끌고 온다.
 
-![springfox-boot-starter-library.png](../assets/img/api-documentation-spring/springfox-boot-starter-library.png){: width="400" height="300" .normal }
+![springfox-boot-starter-library.png](../assets/img/post/2024-12-17/springfox-boot-starter-library.png){: width="400" height="300" .normal }
 
 또한 springfox 3.x 버전부터는 Swagger 문서를 활성화시키는 `@EnableSwagger2`과 같은 애노테이션 추가가 불필요하고, swagger-ui 경로도 기존 `/swagger-ui.html`에서 `/swagger-ui/index.html`(아니면 `/swagger-ui/`) 로 변경되었다.
 자세한 내용은 [문서](https://springfox.github.io/springfox/docs/current/#migrating-from-existing-2-x-version)를 참고하자.
 
 이제 서버를 띄운후 `/swagger-ui/index.html`로 접속해보자
 
-![spring-oas3.png](../assets/img/api-documentation-spring/springfox-oas3.png){: width="600" height="400" .normal }
+![spring-oas3.png](../assets/img/post/2024-12-17/springfox-oas3.png){: width="600" height="400" .normal }
 
 DocumentType을 따로 설정하지 않을 경우 `OAS 3.0`을 기준으로 생성됨을 확인할 수 있다.
 
 아래와 같이 DocumentType에 들어가보면 지원되는 Specification 버전을 확인해볼수 있는데,
 
-![springfox-documentType.png](../assets/img/api-documentation-spring/springfox-documentType.png){: width="600" height="400" .normal }
+![springfox-documentType.png](../assets/img/post/2024-12-17/springfox-documentType.png){: width="600" height="400" .normal }
 
 `Swagger 2.0 (OAS 2.0)`으로 변경을 위해서는 아래와 같이 Docket 설정을 통해 DocumentType을 `SWAGGER_2`로 변경해준다.
 
@@ -59,7 +59,7 @@ class SpringFoxConfig {
 
 다시 서버를 띄운후 확인시 `Swagger 2.0 (OAS 2.0)` 으로 변경됨을 확인할 수 있다. 
 
-![oas2.png](../assets/img/api-documentation-spring/springfox-oas2.png){: width="600" height="400" .normal }
+![oas2.png](../assets/img/post/2024-12-17/springfox-oas2.png){: width="600" height="400" .normal }
 
 <br>
 
@@ -89,16 +89,16 @@ springdoc.api-docs.version=openapi_3_1
 
 이제 서버를 실행시킨후 `/swagger-ui/index.html`로 접속해보면 생성된 API 문서를 확인해볼수 있다.
 
-![springdoc-oas3.png](../assets/img/api-documentation-spring/springdoc-oas3.png){: width="600" height="400" .normal }
+![springdoc-oas3.png](../assets/img/post/2024-12-17/springdoc-oas3.png){: width="600" height="400" .normal }
 
 
 `/v3/api-docs` 호출시 `OAS 3.0` 스펙에 따른 JSON 형식의 결과를 확인할수 있다. 
 
-![springdoc-json.png](../assets/img/api-documentation-spring/springdoc-json.png){: width="400" height="300" .normal }
+![springdoc-json.png](../assets/img/post/2024-12-17/springdoc-json.png){: width="400" height="300" .normal }
 
 추가로 `/v3/api-docs` 뒤에 `yaml`을 붙여주면 yaml 파일 형식으로도 확인해볼수 있다.
 
-![springdoc-yaml](../assets/img/api-documentation-spring/springdoc-yaml.png){: width="400" height="300" .normal }
+![springdoc-yaml](../assets/img/post/2024-12-17/springdoc-yaml.png){: width="400" height="300" .normal }
 
 <br>
 
